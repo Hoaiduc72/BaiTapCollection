@@ -1,0 +1,15 @@
+Bài 2:
+Hãy viết chương trình để quản lý thông tin về các sản phẩm trong cửa hàng. Mỗi sản phẩm sẽ có các thuộc tính như tên,
+giá, số lượng trong kho, v.v. Sử dụng các khái niệm của OOP để thiết kế các lớp như Product, Inventory, và Main để quản
+lý danh sách sản phẩm.
+1.Lớp Product: Đại diện cho một sản phẩm. Mỗi sản phẩm có các thuộc tính như tên, giá, số lượng trong kho, v.v.
+2.Lớp Inventory: Đại diện cho kho hàng, nơi lưu trữ các sản phẩm. Lớp này sẽ có một collection để lưu trữ danh sách
+các sản phẩm. Cung cấp các phương thức như:
+1. addProduct: Thêm một sản phẩm mới vào kho.
+2. removeProduct: Xóa một sản phẩm khỏi kho.
+3. displayProducts: Hiển thị danh sách các sản phẩm có trong kho.
+4. findProduct: Tìm kiếm sản phẩm theo tên.
+3.Lớp Main: Lớp chính chứa phương thức main. Trong phương thức này, bạn sẽ tạo một đối tượng Inventory, thêm các
+sản phẩm vào kho, và thực hiện các tác vụ như hiển thị danh sách sản phẩm, tìm kiếm sản phẩm và xóa sản phẩm.
+4.Xử lý Exception: Xử lý các trường hợp ngoại lệ như khi thêm sản phẩm với số lượng âm, khi tìm kiếm sản phẩm không
+tồn tại trong kho, v.v.

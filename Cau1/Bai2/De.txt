@@ -1,0 +1,13 @@
+2.Quản lý thư viện sách:
+
+1. Tạo một lớp Book với các thuộc tính 
+id, title, author, và genre.
+
+2. Sử dụng cấu trúc dữ liệu HashMap<Integer, Book> 
+để lưu trữ sách với id là key.
+
+3. Thêm các phương thức để thêm, xóa, 
+và tìm kiếm sách trong thư viện.
+
+4. Hiển thị tất cả các cuốn sách và cho phép người 
+dùng tìm kiếm sách theo tiêu đề hoặc tác giả.
