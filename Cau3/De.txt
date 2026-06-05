@@ -1,0 +1,18 @@
+Bài 3:
+Hãy viết chương trình quản lý thông tin về các sách trong thư viện. Mỗi cuốn sách sẽ có các thuộc tính như tiêu đề, tác
+giả, năm xuất bản, v.v. Sử dụng các khái niệm của OOP để thiết kế các lớp như Book, Library, và Main để quản lý danh
+sách sách.
+1.Lớp Book: Đại diện cho một cuốn sách. Mỗi cuốn sách sẽ có các thuộc tính như tiêu đề, tác giả, năm xuất bản, v.v.
+2.Lớp Library: Đại diện cho thư viện, nơi lưu trữ các sách. Lớp này sẽ có một collection để lưu trữ danh sách các cuốn
+sách. Cung cấp các phương thức như:
+1. addBook: Thêm một cuốn sách mới vào thư viện.
+2. removeBook: Xóa một cuốn sách khỏi thư viện.
+3. displayBooks: Hiển thị danh sách các cuốn sách có trong thư viện.
+4. searchBookByTitle: Tìm kiếm cuốn sách theo tiêu đề.
+5. searchBookByAuthor: Tìm kiếm cuốn sách theo tác giả.
+3.Lớp Main: Lớp chính chứa phương thức main. Trong phương thức này, bạn sẽ tạo một đối tượng Library, thêm các
+cuốn sách vào thư viện, và thực hiện các tác vụ như hiển thị danh sách sách, tìm kiếm sách theo tiêu đề hoặc tác giả, và
+xóa sách.
+4.Xử lý Exception: Xử lý các trường hợp ngoại lệ như khi thêm sách đã tồn tại, Khi người dùng yêu cầu xóa một cuốn
+sách khỏi thư viện và cuốn sách đó không tồn tại trong thư viện, cần ném một ngoại lệ (ví dụ:
+BookNotFoundException) để thông báo về lỗi này.
